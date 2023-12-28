@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Book Appointment
+        </title>
+        <style>
+            body {
+                background-color: rgb(228, 236, 248);
+            }
+             .c {
+                width: 50%;
+                text-align: left;
+                font-size: 40px;
+            }
+            .d {
+                text-align: right;
+            }
+            .para {
+                text-align: center;
+                font-size: 30px;
+            }
+            .container {
+                width: 40%;
+                margin: auto;
+                font-size: 25px;
+                border: blue solid;
+                outline: black solid;
+                padding: 2%;
+                border-style: double;
+                background-color: rgb(136, 204, 195);
+            }
+            input[type=text],input[type=date] {
+                width: 80%;
+                padding: 10px;
+            }
+            button:hover {
+                background: rgb(245, 0, 0);
+            }
+            button {
+                outline: black solid;
+                width: 50%;
+                font-size: large;
+                padding: 10px;
+                border-radius: 12px;
+            }
+            ul{
+                list-style-type: none;
+                float: left;
+                position: absolute;
+                right: 0%;
+                top: 11%;
+            }
+       li{
+                float: left;
+                
+                padding: 15px;
+                font-size: 20px;
+            }
+            li a:hover{
+                color: red;}
+            .co{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <table width="80%" height="50%">      
+            <tr>
+                <td rowspan="3" class="d" width="50%" height="60%" align="30% margin-left">
+                    <img src="apollo.jpg" width="15%" height="10%">
+                </td>
+                <td class="c" >
+                    <b>&emsp;<u>APOLLO HOSPITAL</u></b>
+               </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            </table>
+        </div>
+        <br><br>
+        <hr>
+        <hr>
+        <p class="para"><u><b>Book Appointment</b></u></p>
+        <br><br>
+        <form class="container" action="Confirmation.html">
+            Name :<br><input type="text" required>
+            <br><br>
+            Age :<br><input type="text" required>
+            <br><br>
+            E-mail :<br><input type="text" required>
+            <br><br>
+            Address :<br><textarea></textarea required>
+            <br><br>
+            Mobile :<br><input type="text" required>
+            <br><br>
+            Select Date :
+            <input type="date" required>
+            <br><br>
+            Choose Timing :
+            <select style="padding: 2%;" required>&ensp;
+                <option></option>
+                <option value="10.00 am - 12.30 pm">10.00 am - 12.30 pm</option>
+                <option value="2.00 pm - 4.30 pm">2.00 pm - 4.30 pm</option>
+                <option value="7.30 pm - 9.30 pm">7.30 pm - 9.30 pm</option>
+            </select>
+            <br><br>
+            <center><button>Book Appointment</button></center>
+        </form>
+        <ul>
+            <li><a href="home1.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="Doctor's List.html">Doctor's list</a></li>
+            <li><a href="Doctor's List.html" class="co">Book Appointment</a></li>
+        </ul>
+    </body>
+</html>
